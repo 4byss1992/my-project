@@ -1,0 +1,26 @@
+# Analysis artifacts — keep the repo to the reports, not the raw material
+*.apk
+*.dex
+*.jar
+*.zip
+
+# Decompiler / tool output
+jadx/
+*_src/
+*_ex/
+decompiled/
+out/
+
+# Python / venv
+__pycache__/
+*.pyc
+.venv/
+venv/
+apkenv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
