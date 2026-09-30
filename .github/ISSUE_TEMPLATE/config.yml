@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private / sensitive report
+    url: https://github.com/4byss1992/my-project/security/advisories/new
+    about: For vendors or sensitive-disclosure concerns, use private reporting instead of a public issue.
