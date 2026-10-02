@@ -5,6 +5,13 @@ for "NCPTC." Both are built on established commercial surveillance/MDM
 codebases. Analysis performed with androguard (manifest, certs, components,
 policy XML) plus string/endpoint extraction from the compiled DEX.
 
+> **Versions analyzed:** SafePhone `DROID-8.8.500.23` (code 523) and Vantage MDM
+> `DROID-V-1.1.109` (code 109). A newer Vantage build, `DROID-V-1.1.151`
+> (code 151), was also examined — see the
+> [version diff](vantage-version-diff.md). The security-relevant weaknesses
+> below (cleartext + user-CA trust, Komodia redirection, hardcoded test
+> artifacts) are unchanged in the newer build.
+
 ## 1. Identity & signing
 
 | | App A — SafePhone | App B — Vantage MDM |
