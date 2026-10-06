@@ -11,6 +11,13 @@ policy XML) plus string/endpoint extraction from the compiled DEX.
 > [version diff](vantage-version-diff.md). The security-relevant weaknesses
 > below (cleartext + user-CA trust, Komodia redirection, hardcoded test
 > artifacts) are unchanged in the newer build.
+>
+> **Also analyzed:** the Windows desktop client
+> `Internet_Monitoring_Install.exe` ("Pay Computer Monitoring") — see the
+> [Windows installer report](windows-installer.md). Its EV code-signing
+> certificate attributes the whole family to **National Cyber Protection &
+> Training Corporation (NCPTC)** of Pennsylvania, whose `ippctech.net` /
+> `ippc-*` infrastructure matches the Android backends.
 
 ## 1. Identity & signing
 

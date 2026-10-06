@@ -18,6 +18,7 @@ or emulated device.
 | [jadx](https://github.com/skylot/jadx) | 1.5.0 | Decompile `classes.dex` → readable Java |
 | `unzip` | — | Extract `classes*.dex` and resources from the APK containers |
 | `strings`, `grep` | — | Recover URLs, endpoints, command constants, and API paths from DEX and decompiled sources |
+| [pefile](https://github.com/erocarrera/pefile), [asn1crypto](https://github.com/wbond/asn1crypto) | — | Windows PE: headers, sections, imports, version info, and Authenticode certificate chain |
 
 ## Steps
 

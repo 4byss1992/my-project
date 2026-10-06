@@ -38,6 +38,7 @@ managed fleet.
 | 📄 [**Executive Summary**](reports/executive-summary.md) | High-level breakdown — identity, permissions, components, endpoints, and bottom-line assessment. Start here. |
 | 📚 [**Full Technical Breakdown**](reports/full-breakdown.md) | Deep, class-level analysis from decompiled source: data-capture services, VPN/Komodia filtering, command & exfil channels, TLS handling, persistence, and a full capability matrix. |
 | 🔀 [**Vantage Version Diff**](reports/vantage-version-diff.md) | What changed between Vantage MDM `v1.1.109` and the newer `v1.1.151` — new provisioning/compliance components, permission and endpoint changes, and what stayed the same. |
+| 🪟 [**Windows Installer**](reports/windows-installer.md) | Analysis of the `Internet_Monitoring_Install.exe` Windows client — a signed downloader stub whose EV certificate attributes the whole family to **National Cyber Protection & Training Corporation (NCPTC)**. |
 | 🔬 [**Methodology**](reports/methodology.md) | Tools, versions, and the step-by-step static-analysis process used to produce the reports. |
 
 ---
@@ -86,6 +87,7 @@ but program logic and string constants are intact.
     ├── executive-summary.md       # high-level breakdown
     ├── full-breakdown.md          # deep class-level analysis
     ├── vantage-version-diff.md    # v1.1.109 → v1.1.151 changes
+    ├── windows-installer.md       # Windows "Internet Monitoring" client
     └── methodology.md             # tooling and process
 ```
 
